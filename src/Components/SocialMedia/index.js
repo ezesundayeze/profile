@@ -7,15 +7,11 @@ const SocialHandle = (props)=>{
         background:'grey'
     }
     const fbStyle = {
-        visibility: 'visible', 
-        animationName: 'fadeIn',
-        background:'blue'
+
       }
 
       const twStyle = {
-        visibility: 'visible', 
-        animationName: 'fadeIn',
-        background:'blue'
+
       }
 
     const {
@@ -29,10 +25,11 @@ const SocialHandle = (props)=>{
     }
 
     const getStyle=(platform)=>{
+        console.log(platform)
         if (platform==='facebook') {
             return fbStyle
         }
-        else if (platform==='twitter') {
+        if (platform==='twitter') {
             return twStyle
         }
         else{
@@ -44,7 +41,7 @@ const SocialHandle = (props)=>{
 
     return(
         <React.Fragment>
-            <button style={getStyle()} onClick={()=>handleUrl(url, username)}>Connect on {platform}</button>
+            <button style={getStyle(platform)} onClick={()=>handleUrl(url, username)}>Connect on {platform}</button>
         </React.Fragment>
     )
 }
