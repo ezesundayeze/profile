@@ -1,18 +1,9 @@
 import React  from "react"
 import { withRouter } from "react-router-dom"
+import './index.css'
+import { formating } from '../../Utils/formating'
 
 const SocialHandle = (props)=>{
-
-    const defaultStyle = {
-        background:'grey'
-    }
-    const fbStyle = {
-
-      }
-
-      const twStyle = {
-
-      }
 
     const {
         username,
@@ -20,27 +11,15 @@ const SocialHandle = (props)=>{
         platform
     } = props
 
+    const { sentenceCase } = formating
+
      const handleUrl = (url, username)=>{
         window.open(url+username, '_blank')
     }
 
-    const getStyle=(platform)=>{
-        if (platform==='facebook') {
-            return fbStyle
-        }
-        if (platform==='twitter') {
-            return twStyle
-        }
-        else{
-            return defaultStyle
-        }
-    }
-    
-    
-
     return(
         <React.Fragment>
-            <button style={getStyle(platform)} onClick={()=>handleUrl(url, username)}>Connect on {platform}</button>
+            <button className='button' onClick={()=>handleUrl(url, username)}>{sentenceCase(platform)}</button>
         </React.Fragment>
     )
 }
