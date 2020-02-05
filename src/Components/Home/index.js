@@ -1,5 +1,4 @@
 import React from 'react'
-import SocialHandle from '../SocialMedia'
 
 import './index.css'
 
@@ -7,18 +6,17 @@ import './index.css'
 
   return (
    <React.Fragment>
-      <div>
-          <p>Eze Sunday, Eze</p>
-      </div>
-      <div>
-          I am a software engineer who is highly driven, a team player with a can-do attitude, phenomenal time management skills, and strong problem-solving skills.
-      </div>
-      <div>
-          <SocialHandle username='rexeze' platform='facebook' url='https://fb.com/'/>
-      </div>
-      <div>
-          <SocialHandle username='ezesundayeze' platform='twitter' url='https://twitter.com/'/>
-      </div>
+    <div class="container">
+        <div class="avatar-flip">
+        <img alt='' src="https://pbs.twimg.com/profile_images/1195821518267330561/-JH3S3aT_400x400.jpg" height="150" width="150" />
+        <img alt='' src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150" />
+        
+        </div>
+            <h2>Eze Sunday Eze</h2>
+            <h4>Software Developer</h4>
+            <p>I write code, write about other stuff and ...</p>
+            <p></p>
+        </div>
    </React.Fragment>
 
   )
