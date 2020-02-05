@@ -25,7 +25,6 @@ const SocialHandle = (props)=>{
     }
 
     const getStyle=(platform)=>{
-        console.log(platform)
         if (platform==='facebook') {
             return fbStyle
         }
