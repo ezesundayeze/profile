@@ -8,7 +8,7 @@ import './index.css'
   return (
    <React.Fragment>
       <div>
-          Eze Sunday, Eze
+          <p>Eze Sunday, Eze</p>
       </div>
       <div>
           I am a software engineer who is highly driven, a team player with a can-do attitude, phenomenal time management skills, and strong problem-solving skills.
