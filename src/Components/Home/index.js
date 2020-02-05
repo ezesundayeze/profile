@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './index.css'
-import BrandDisplay from '../Brands/BrandDisplay'
+import BrandDisplay from '../Brands/BrandDisplay.js'
 import SocialMedia from '../SocialMedia'
 
  function Home (props) {
