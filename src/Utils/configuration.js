@@ -39,7 +39,7 @@ const config = {
             platform:'blog'
         }
     ],
-    user:{
+    user: {
         name:'Eze Sunday Eze',
         title: 'Software Developer',
         slogan: 'I write code, write about other stuff and ...',

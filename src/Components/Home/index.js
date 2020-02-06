@@ -8,11 +8,11 @@ import config from '../../Utils/configuration'
  function Home (props) {
 
     const { brands, social, user } = config
-    
-     const style = {
+
+    const style = {
         width: '100%',
         textAlign: 'center'
-     }
+        }
 
   return (
    <React.Fragment>
