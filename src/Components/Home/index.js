@@ -33,7 +33,7 @@ import SocialMedia from '../SocialMedia'
             platform:'facebook'
         },
         {
-            username:'twitter',
+            username:'ezesundayeze',
             url:'https://twitter.com/',
             platform:'twitter'
         },
@@ -41,6 +41,11 @@ import SocialMedia from '../SocialMedia'
             username:'ezesundayeze',
             url:'https://github.com/',
             platform:'github'
+        },
+        {
+            username:'ezesunday',
+            url:'https://medium.com/@',
+            platform:'blog'
         }
        
     ]
