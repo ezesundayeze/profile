@@ -38,7 +38,15 @@ const config = {
             url:'https://medium.com/@',
             platform:'blog'
         }
-    ]
+    ],
+    user:{
+        name:'Eze Sunday Eze',
+        title: 'Software Developer',
+        slogan: 'I write code, write about other stuff and ...',
+        resume: 'https://bit.ly/2S1wPik',
+        email: 'mailto:hi@ezesunday.com',
+        image: 'https://pbs.twimg.com/profile_images/1195821518267330561/-JH3S3aT_400x400.jpg'
+    }
 
 }
 
